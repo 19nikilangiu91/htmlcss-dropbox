@@ -56,7 +56,7 @@ body{
     padding: 0 20px;
 }
 
-li a {
+li .grey{
     text-decoration: none;
     color: grey;
 }
@@ -222,17 +222,17 @@ li a {
 }
 
 .title-two{
-    width: 50%;
+    width: 60%;
     margin: 0px auto;
-    font-size: 20px;
-    padding-top: 150px;
+    padding-top:125px;
+    font-size: 25px;
 
     /* DEBUG */
     /* background-color: yellow; */
 }
 
 .radio{
-    width: 50%;
+    width: 60%;
     margin: 50px auto;
 
 
@@ -242,7 +242,8 @@ li a {
 
 #flex-container-columns{
     display: flex;
-    width: 52%;
+    justify-content: space-around;
+    width: 65%;
     margin: 0  auto;
     
     /* DEBUG */
@@ -254,10 +255,9 @@ li a {
 
 .colomn{
     width: calc(100% / 3);
-    margin: 0 5px; 
-    border-top: 1px black solid;
-    border-left: 1px black solid;
-    border-right: 1px black solid;;
+    margin: 0 30px; 
+    border: 1px black solid;
+    padding-bottom: 50px;
     
     /* DEBUG */
     /* background-color:green; */
@@ -266,6 +266,10 @@ li a {
 .user{
     border-bottom: 1px solid black;
     padding-left: 80px;
+}
+
+a{
+    color: black;
 }
 
 .main-user{
@@ -355,4 +359,66 @@ h5{
     /* DEBUG */
     /* background-color: green; */
 }
+
+/* Column Below */
+
+.colomn-below{
+    width: 61%;
+    margin: 40px auto; 
+    border: 1px black solid;
+    padding-bottom: 50px;
+    
+    /* DEBUG */
+    /* background-color:green; */
+}
+
+.user-below{
+    text-align: center;
+    border-bottom: 1px black solid;
+
+}
+
+.team{
+    text-decoration: none;
+}
+
+.contentfive{
+    width: 70%;
+    font-size: 13px;
+    padding:30px 0 0 30px;
+    /* DEBUG */
+    /* background-color: green; */
+}
+
+.left-below{
+    width: 80%;
+    /* DEBUG */
+    /* background-color: red; */
+}
+
+.below{
+    display: flex;
+    padding: 30px 0 0 30px;
+    width: 100%;
+}
+
+.enterprise{
+    width: 70%;
+    font-size: 20px;
+    /* DEBUG */
+    /* background-color: red; */
+}
+
+.button-vendite{
+    width: 25%;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background-color: blue;
+}
+
+
+
+
+
 
