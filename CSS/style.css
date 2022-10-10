@@ -7,6 +7,7 @@
 }
 
 body{
+    font-family: 'Open Sans', sans-serif;
     /* DEBUG */
     background-color: brown;
 }
@@ -15,10 +16,14 @@ body{
 
 #flex-nav{
     display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
     background-color:white;
     width: 100%;
     /* DEBUG */
-    height: 50px;
+    /* height: 50px; */
 }
 
 /* Drop Box Logo */
@@ -86,15 +91,38 @@ li a {
 #inizia{
     width: 5%;
     /* DEBUG  */
-    background-color: blueviolet;
+    background-color: yellow;
 }
 
 .button-inizia{
     text-decoration: none;
-    margin-left: 5px;
+    margin-left: 15px;
     font-size: 12px;
     color: white;
     padding: 5px;
     background-color: blue;
     line-height: 50px;
 } 
+
+/* Main Rules */
+
+#first-section{
+    width: 80%;
+    margin: 50px auto;
+    /* DEBUG */
+    background-color: aqua;
+    height: 500px;
+}
+
+.main-title{
+    width: 80%;
+    margin: 50px auto;
+    padding:100px 0 0 45px;
+    /* DEBUG */
+    background-color: yellow;
+}
+
+h1{
+    font-size: 45px;
+
+}
