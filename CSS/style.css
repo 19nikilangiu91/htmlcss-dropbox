@@ -111,12 +111,12 @@ li a {
     margin: 50px auto;
     /* DEBUG */
     background-color: aqua;
-    height: 500px;
+    
 }
 
 .main-title{
     width: 80%;
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
     padding:100px 0 0 45px;
     /* DEBUG */
     background-color: yellow;
@@ -124,5 +124,39 @@ li a {
 
 h1{
     font-size: 45px;
+}
 
+.flex-squareone{
+    display: flex;
+    margin: 0 10%;
+    width: 80%;
+    /* DEBUG */
+    background-color: red;
+    /* height: 500px; */
+}
+
+.paragraphone{
+    position: relative;
+    width: 40%;
+    /* DEBUG */
+    background-color: green;
+}
+
+.paragraphone .one{
+    font-size: 15px;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+.imageone{
+    position:absolute;
+    margin-left: 350px;
+    width: 40%;
+    /* DEBUG */
+    background-color: orange;
+}
+
+.imageone img{
+    padding-top: 50px;
+    width: 100%;
 }
