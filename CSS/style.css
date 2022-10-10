@@ -1,0 +1,99 @@
+/* General Rules */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* DEBUG */
+    background-color: brown;
+}
+
+/* Header Rules */
+
+#flex-nav{
+    display: flex;
+    background-color:white;
+    width: 100%;
+    /* DEBUG */
+    height: 100px;
+}
+
+/* Drop Box Logo */
+.dropbox-logo{
+    width: 10%;
+    margin-top: 5px;
+    /* DEBUG */
+    background-color: yellow;
+    line-height: 100px;
+}
+/* List Left Rules */
+
+.list-left{
+    /* DEBUG */
+    height: 100px;
+}
+
+.flex-list-left{
+    display: flex;
+    width: 40%;
+    font-size: 12px;
+    /* DEBUG */
+    line-height: 100px;
+    background-color: red;
+}
+
+.flex-list-left li{
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: grey;
+}
+
+/* List Right Rules */
+
+.list-right{
+    /* DEBUG */
+    background-color: blue;
+    width: 45%;
+    height: 100px;
+}
+
+.flex-list-right{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    font-size: 12px;
+    /* DEBUG */
+    background-color: blue;
+    line-height: 100px; 
+}
+
+.flex-list-right li{
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+/* Buttons */
+
+#inizia{
+    width: 5%;
+    /* DEBUG  */
+    background-color: blueviolet;
+}
+
+.button-inizia{
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 12px;
+    color: white;
+    padding: 5px;
+    background-color: blue;
+    /* DEBUG  */
+    line-height: 100px;
+} 
