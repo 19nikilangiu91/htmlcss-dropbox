@@ -115,7 +115,7 @@ li a {
     border-radius: 20px;
     color: white;
     text-decoration: none;
-    /* background-color: blue; */
+    background-color: blue;
 }
 
 .arrow-down{
@@ -129,6 +129,21 @@ li a {
 
 .arrow-down a{
     color: black;
+}
+
+#prova-gratis{
+    width: 80%;
+    margin: 30px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    background-color: blue;
+} 
+
+.button-gratis{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -200,66 +215,144 @@ li a {
 
 #second-section{
     width: 100%;
+    padding-left: 20px;
     background-color: white;
 
     /* DEBUG */
 }
 
 .title-two{
-    width: 80%;
+    width: 50%;
     margin: 0px auto;
-    font-size: 26px;
+    font-size: 20px;
     padding-top: 150px;
-    text-align: center;
 
     /* DEBUG */
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .radio{
-    width: 80%;
+    width: 50%;
     margin: 50px auto;
-    padding-left:215px ;
 
 
     /* DEBUG */
-    background-color: orange;
+    /* background-color: orange; */
 }
 
 #flex-container-columns{
     display: flex;
-    width: 50%;
-    margin: 0 auto;
+    width: 52%;
+    margin: 0  auto;
     
     /* DEBUG */
-    height: 500px;
-    background-color:yellow;
+    /* height: 500px; */
+    /* background-color:yellow; */
 }
 
-.colomn-one{
+/* Colomns Up */
+
+.colomn{
     width: calc(100% / 3);
     margin: 0 5px; 
+    border-top: 1px black solid;
+    border-left: 1px black solid;
+    border-right: 1px black solid;;
     
     /* DEBUG */
-    height: 250px;
-    background-color:green;
+    /* background-color:green; */
 }
 
-.colomn-two{
-    width: calc(100% / 3);
-    margin: 0 5px; 
-    
-    /* DEBUG */
-    height: 250px;
-    background-color:red;
+.user{
+    border-bottom: 1px solid black;
+    padding-left: 80px;
 }
 
-.colomn-three{
-    width: calc(100% / 3);
-    margin: 0 5px;
-    
+.main-user{
+    text-decoration: none;
+}
+
+h3{
+    padding: 30px 0 0 30px;
+}
+
+h4{
+    padding: 20px 0 0 30px;
+}
+
+h5{
+    padding: 20px 0 0 30px;
+}
+
+.userone{
+    display: flex;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.conteone{
+    width: 90%;
+    font-size: 13px;
+    padding-left: 10px;
     /* DEBUG */
-    height: 250px;
-    background-color:blue;
+    /* background-color: green; */
+}
+
+.folder{
+    display: flex;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.contetwo{
+    width: 90%;
+    font-size: 13px;
+    padding-left: 10px;
+    /* DEBUG */
+    /* background-color: red; */
+}
+
+.share{
+    display: flex;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.contethree{
+    width: 90%;
+    font-size: 13px;
+    padding-left: 10px;
+    /* DEBUG */
+    /* background-color: green; */
+}
+
+.oppure{
+    padding:0 0 50px 30px;
+}
+
+/* Colomns Bottom */
+
+.line-bottom{
+    width: 20%;
+    border-top: 1px solid black;
+    margin-left: 30px;
+}
+
+#checkone{
+    display: flex;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.contentfour{
+    width: 90%;
+    font-size: 13px;
+    padding-left: 20px;
+    /* DEBUG */
+    /* background-color: green; */
 }
 
