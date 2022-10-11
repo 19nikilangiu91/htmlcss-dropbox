@@ -91,7 +91,7 @@ a{
     font-size: 12px;
     padding: 5px 10px;
     color: white;
-    background-color: blue;
+    background-color: #0071e0;
 } 
 
 #prova-gratuita{
@@ -104,10 +104,9 @@ a{
 .button-prova{
     font-size: 13px;
     padding: 10px;
-    border-radius: 20px;
     color: white;
     text-decoration: none;
-    background-color: blue;
+    background-color: #0071e0;
 }
 
 .arrow-down{
@@ -144,10 +143,8 @@ a{
 
 #first-section{
     width: 100%;
-    margin: 50 auto 0 auto;
     /* DEBUG */
     background-color: #b4c8e1;
-    
 }
 
 .main-title{
@@ -169,13 +166,12 @@ a{
     width: 80%;
     /* DEBUG */
     /* background-color: red; */
-    /* height: 500px; */
 }
 
 .paragraphone{
     margin-left: 85px;
     padding-left: 20px;
-    width: 30%;
+    width: 27%;
     /* DEBUG */
     /* background-color: green; */
 }
@@ -192,8 +188,8 @@ a{
 
 .imageone{
     position:absolute;
-    margin: 50px 0 0 410px;
-    width: 55%;
+    margin: 50px 0 0 370px;
+    width: 58%;
     /* DEBUG */
     /* background-color: orange; */
 }
@@ -220,12 +216,26 @@ a{
     /* background-color: yellow; */
 }
 
-.radio{
-    width: 60%;
-    margin: 50px auto;
-    
+.flex-button-blue{
+    display: flex;
+    align-items: center;
+    width: 61%;
+    margin: 50px 0 50px 260px;
     /* DEBUG */
-    /* background-color: orange; */
+    /* background-color: yellow; */
+}
+
+.radio{
+    width: 20px;
+    height: 20px;
+    margin: 0 20px;
+    border-radius: 50%;
+    border: 1px grey solid;
+    background-color: white;   
+}
+
+.radio:active{
+    border: 5px solid #0071e0;
 }
 
 #flex-container-columns{
