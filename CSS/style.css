@@ -128,13 +128,21 @@ a{
     padding: 5px;
     text-decoration: none;
     text-align: center;
-    background-color: blue;
+    background-color: #0071e0;
 } 
 
 .button-gratis{
     font-size: 13px;
     text-decoration: none;
     color: white;
+}
+
+.button-vendite{
+    width: 25%;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background-color: #0071e0;
 }
 
 /* Main Rules */
@@ -245,7 +253,6 @@ a{
     margin: 0  auto;
     
     /* DEBUG */
-    /* height: 500px; */
     /* background-color:yellow; */
 }
 
@@ -254,15 +261,14 @@ a{
 .colomn{
     width: calc(100% / 3);
     margin: 0 30px; 
-    border: 1px black solid;
+    border: 1px solid #d0d4d9;
     padding-bottom: 50px;
-    
     /* DEBUG */
     /* background-color:green; */
 }
 
 .user{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d0d4d9;
     padding-left: 80px;
 }
 
@@ -275,15 +281,17 @@ a{
 }
 
 h3{
+    font-size: 20px;
     padding: 30px 0 0 30px;
 }
 
 h4{
-    padding: 20px 0 0 30px;
+    padding: 50px 0 20px 30px;
 }
 
 h5{
     padding: 20px 0 0 30px;
+    color: #a3adb9;
 }
 
 .userone{
@@ -332,7 +340,19 @@ h5{
 }
 
 .oppure{
-    padding:0 0 50px 30px;
+    padding:0 0 20px 30px;
+}
+
+#line-colomn{
+    margin-right: 50px;
+    width: 20%;
+    color: grey;
+}
+
+#link-acquista-ora{
+    color: blue;
+    text-decoration: underline;
+
 }
 
 /* Colomns Bottom */
@@ -343,11 +363,15 @@ h5{
     margin-left: 30px;
 }
 
-#checkone{
+.checkone{
     display: flex;
     font-size: 15px;
     padding-left: 20px;
     margin-top: 20px;
+}
+
+#blue-check{
+    color:#0071e0;
 }
 
 .contentfour{
@@ -363,7 +387,7 @@ h5{
 .colomn-below{
     width: 61%;
     margin: 40px auto; 
-    border: 1px black solid;
+    border: 1px solid #d0d4d9;
     padding-bottom: 50px;
     
     /* DEBUG */
@@ -372,7 +396,7 @@ h5{
 
 .user-below{
     text-align: center;
-    border-bottom: 1px black solid;
+    border: 1px solid #d0d4d9;
 }
 
 .team{
@@ -383,6 +407,7 @@ h5{
     width: 70%;
     font-size: 13px;
     padding:30px 0 0 30px;
+    color: #a3adb9;
     /* DEBUG */
     /* background-color: green; */
 }
@@ -404,14 +429,6 @@ h5{
     font-size: 20px;
     /* DEBUG */
     /* background-color: red; */
-}
-
-.button-vendite{
-    width: 25%;
-    padding: 5px;
-    color: white;
-    text-align: center;
-    background-color: blue;
 }
 
 /* Third Section */
