@@ -433,7 +433,6 @@ h5{
     width: 60%;
     /* DEBUG */
     /* background-color: yellow; */
-
 }
 
 .imagetwo{
@@ -455,7 +454,7 @@ h5{
     /* background-color: red; */
 }
 
-.content{
+.contentsix{
     width: 85%;
     padding: 40px 30px;
     /* DEBUG */
@@ -470,3 +469,90 @@ h5{
     color: grey;
     border: 1px grey solid;
 }
+
+/* Fourth Section */
+
+#fourth-section{
+    width: 100%;
+
+    /* DEBUG */
+    /* background-color: blueviolet; */
+}
+
+.fourth-title{
+    width: 70%;
+    margin: 150px auto 50px auto;
+    padding-left:80px;
+    font-size: 35px;
+
+    /* DEBUG */
+    /* background-color: yellow; */
+}
+
+.flex-square-two{
+    display: flex;
+    width: 62%;
+    margin:  0 auto 0 290px;
+
+    /* DEBUG */
+    /* background-color: orange; */
+}
+
+.new-column-one{
+    width: calc(100% / 3);
+    margin: 0 15px;
+
+    /* DEBUG */
+    /* background-color: red; */
+}
+
+.square-image-two{
+    width: 100%;
+    /* DEBUG */
+    /* background-color:yellow; */
+    height: 200px;
+}
+
+.image-three{
+    width: 100%;
+}
+
+#title-new-column{
+    margin-top: 25px;
+    font-size: 20px;
+    /* DEBUG */
+    /* background-color: aqua; */
+}
+
+.contentseven{
+    margin-top: 25px;
+    /* DEBUG */
+    /* background-color: green; */
+}
+
+.square-image-three{
+    margin-top: 50px;
+    width: 100%;
+    /* DEBUG */
+    /* background-color:yellow; */
+    height: 200px;
+} 
+
+.new-column-two{
+    width: calc(100% / 3);
+    margin: 0 15px;
+
+    /* DEBUG */
+    /* background-color: yellow; */
+    height: 500px;
+}
+
+.new-column-three{
+    width: calc(100% / 3);
+    margin: 0 15px;
+
+    /* DEBUG */
+    /* background-color: green; */
+    height: 500px;
+}
+
