@@ -556,3 +556,34 @@ h5{
     height: 500px;
 }
 
+/* Fifth Section */
+
+#fifth-section{
+    margin:100px auto 0 300px;
+    width: 50%;
+    font-size: 20px;
+
+    /* DEBUG */
+    /* background-color: blueviolet; */
+}
+
+.scopri-di-piu{
+    margin-top: 50px;
+    font-size: 15px;
+    /* DEBUG */
+    /* background-color: yellow; */
+}
+
+#scopri-di-piu-blu{
+    color: blue;
+}
+
+/* Multi Squares */
+
+#multi-square{
+    margin-top:100px;
+    width: 100%;
+    /* DEBUG */
+    background-color: blueviolet;
+    height: 500px;
+}
