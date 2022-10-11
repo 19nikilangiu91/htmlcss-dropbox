@@ -32,7 +32,6 @@ body{
     margin: 5px 0 0 20px;
     /* DEBUG */
     /* background-color: yellow; */
-
 }
 /* List Left Rules */
 
@@ -344,15 +343,14 @@ h5{
 }
 
 #line-colomn{
-    margin-right: 50px;
+    margin:50px 0 25px 30px;
     width: 20%;
-    color: grey;
+    color: lightgrey;
 }
 
 #link-acquista-ora{
     color: blue;
     text-decoration: underline;
-
 }
 
 /* Colomns Bottom */
@@ -389,7 +387,6 @@ h5{
     margin: 40px auto; 
     border: 1px solid #d0d4d9;
     padding-bottom: 50px;
-    
     /* DEBUG */
     /* background-color:green; */
 }
@@ -486,7 +483,6 @@ h5{
 
 #fourth-section{
     width: 100%;
-
     /* DEBUG */
     /* background-color: blueviolet; */
 }
@@ -496,7 +492,6 @@ h5{
     margin: 150px auto 50px auto;
     padding-left:80px;
     font-size: 35px;
-
     /* DEBUG */
     /* background-color: yellow; */
 }
@@ -505,7 +500,6 @@ h5{
     display: flex;
     width: 62%;
     margin:  0 auto 0 290px;
-
     /* DEBUG */
     /* background-color: orange; */
 }
@@ -513,14 +507,12 @@ h5{
 .new-column-one{
     width: calc(100% / 3);
     margin: 0 15px;
-
     /* DEBUG */
     /* background-color: red; */
 }
 
 .square-image-two{
     width: 100%;
-    height: 200px;
     /* DEBUG */
     /* background-color:yellow; */
 }
@@ -547,25 +539,20 @@ h5{
     width: 100%;
     /* DEBUG */
     /* background-color:yellow; */
-    height: 200px;
 } 
 
 .new-column-two{
     width: calc(100% / 3);
     margin: 0 15px;
-
     /* DEBUG */
     /* background-color: yellow; */
-    height: 500px;
 }
 
 .new-column-three{
     width: calc(100% / 3);
     margin: 0 15px;
-
     /* DEBUG */
     /* background-color: green; */
-    height: 500px;
 }
 
 /* Fifth Section */
@@ -574,7 +561,6 @@ h5{
     margin:100px auto 0 300px;
     width: 50%;
     font-size: 20px;
-
     /* DEBUG */
     /* background-color: blueviolet; */
 }
@@ -588,6 +574,7 @@ h5{
 
 #scopri-di-piu-blu{
     color: blue;
+    text-decoration: underline;
 }
 
 /* Multi Squares */
@@ -598,7 +585,6 @@ h5{
     width: 100%;
     /* DEBUG */
     /* background-color: blueviolet; */
-    height: 500px;
 }
 
 .flex-square-multi-left{
@@ -606,7 +592,6 @@ h5{
     flex-wrap: wrap;
     width: calc(100% / 3);
     /* Debug */
-    height: 500px;
 }
 
 /* Left Square */
@@ -614,22 +599,18 @@ h5{
 .squareone{
     width: 50%;
     background-color:#a2d39b;
-    border: 20px #d1e9cd solid ;
-    /* Debug */
+    border: 20px #d1e9cd solid;
     height: 250px;
-
 }
 
 #designit{
     width: 80%;
     padding:90px 0 0 50px;
     filter: invert(100%);
-
 }
 
 .squaretwo{
     width: 50%;
-    /* Debug */
     background-color: #862b45;
     height: 250px;
 }
@@ -642,7 +623,6 @@ h5{
 
 .squarethree{
     width: 50%;
-    /* Debug */
     background-color: lightblue;
     height: 250px;
 }
@@ -655,9 +635,8 @@ h5{
 
 .squarefour{
     width: 50%;
-    /* Debug */
     background-color: red;
-    height: 250px;
+    height: 250px;   
 }
 
 #topps{
@@ -670,9 +649,7 @@ h5{
 
 .square-multi-middle{
     width: calc(100% / 3);
-    /* Debug */
     background-color: lightgrey;
-    height: 500px;
 }
 
 #designit-black{
@@ -680,16 +657,18 @@ h5{
     padding:50px 0 0 30px;
 }
 
-hr{
+#line-middle{
+    color: grey;
     margin: 50px 0 0 30px;
     width: 20%;
 }
 
 .contenteight{
     width: 90%;
-    margin: 0 auto;
+    margin: 25px auto 50px auto;
     font-size: 15px;
     padding-top: 50px;
+    color: grey;
     /* DEBUG */
     /* background-color: yellow; */
 }
@@ -698,7 +677,7 @@ hr{
     width: 90%;
     margin: 0 auto;
     font-size: 15px;
-    padding-top: 50px;
+    padding-top: grey;
     /* * DEBUG * */
     /* background-color: orange; */
 }
@@ -710,13 +689,11 @@ hr{
     flex-wrap: wrap;
     width: calc(100% / 3);
     /* Debug */
-    background-color: green;
-    height: 500px;
+    /* background-color: green; */
 }
 
 .squarefive{
     width: 50%;
-    /* Debug */
     background-color: #ff1616de;
     height: 250px;
 }
@@ -729,7 +706,6 @@ hr{
 
 .squaresix{
     width: 50%;
-    /* Debug */
     background-color: #24b1bf;
     height: 250px;
 }
@@ -742,7 +718,6 @@ hr{
 
 .squareseven{
     width: 50%;
-    /* Debug */
     background-color:#0000bd;
     height: 250px;
 }
@@ -755,7 +730,6 @@ hr{
 
 .squareeight{
     width: 50%;
-    /* Debug */
     background-color: #fff00c;
     height: 250px;
 }
@@ -773,9 +747,7 @@ hr{
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* Debug */
     background-color: #b4c8e1;
-    /* height: 300px; */
 }
 
 .fifth-main-title{
@@ -784,15 +756,15 @@ hr{
     width: 30%;
     /* Debug */
     /* background-color: red; */
-    /* height: 100px; */
 }
 
 .button-prova-gratuita{
     width: 20%;
     padding: 10px;
+    margin-left:100px;
     text-align: center;
-    color: white;
-    background-color: blue;
+    color: grey;
+    background-color: white;
 }
 
 /* Eight Section */
@@ -800,8 +772,8 @@ hr{
 #eight-section{
     width: 100%;
     margin: 0 auto;
-    /* Debug */
     background-color: white;
+    
 }
 
 .sixth-title{
@@ -855,29 +827,22 @@ hr{
 footer{
     margin-top: 150px;
     width: 100%;
-
-    /* DEBUG */
     background-color: black;
-    height: 500px;
 }
 
 #flex-square-footer{
     display: flex;
     width: 70%;
     margin: 0 auto;
-
     /* DEBUG */
     /* background-color: orange; */
-    /* height: 500px; */
 }
 
 .column-special{
     width: 20%;
     margin: 0 auto;
-
     /* DEBUG */
     /* background-color:green; */
-    height: 500px;
 }
 
 .title-list{
@@ -887,10 +852,8 @@ footer{
 .column-special2{
     width: 20%;
     margin: 0 auto;
-
     /* DEBUG */
-    background-color:yellow;
-    height: 500px;
+    /* background-color:yellow; */
 }
 
 .footer-list{
