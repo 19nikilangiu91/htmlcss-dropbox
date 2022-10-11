@@ -147,7 +147,6 @@ li .grey{
     color: white;
 }
 
-
 /* Main Rules */
 
 /* First Section */
@@ -597,6 +596,8 @@ h5{
     height: 500px;
 }
 
+/* Left Square */
+
 .squareone{
     width: 50%;
     background-color:#a2d39b;
@@ -652,6 +653,8 @@ h5{
     filter: invert(100%);
 }
 
+/* Square Middle */
+
 .square-multi-middle{
     width: calc(100% / 3);
     /* Debug */
@@ -685,12 +688,9 @@ hr{
     padding-top: 50px;
     /* * DEBUG * */
     /* background-color: orange; */
-
 }
 
-
-
-
+/* Square Right */
 
 .flex-square-multi-right{
     display: flex;
@@ -700,7 +700,6 @@ hr{
     background-color: green;
     height: 500px;
 }
-
 
 .squarefive{
     width: 50%;
@@ -753,3 +752,35 @@ hr{
     padding:100px 0 0 50px;
     filter: invert(100%);
 }
+
+/* Seventh Section */
+
+.flex-square-dropbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* Debug */
+    background-color: #b4c8e1;
+    /* height: 300px; */
+}
+
+.fifth-main-title{
+    padding: 150px 0 150px 0;
+    font-size: 20px;
+    width: 30%;
+    /* Debug */
+    /* background-color: red; */
+    /* height: 100px; */
+}
+
+.button-prova-gratuita{
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    /* Debug */
+}
+
+
