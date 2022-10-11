@@ -8,7 +8,6 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    height: 100vh;
     /* DEBUG */
     /* background-color: brown; */
 }
@@ -52,12 +51,12 @@ body{
     line-height: 50px;
 }
 
-.flex-list-left li{
+.flex-list-left .grey{
     list-style-type: none;
     padding: 0 20px;
 }
 
-li .grey{
+a{
     text-decoration: none;
     color: grey;
 }
@@ -217,8 +216,6 @@ li .grey{
     width: 100%;
     padding-left: 20px;
     background-color: white;
-
-    /* DEBUG */
 }
 
 .title-two{
@@ -234,8 +231,7 @@ li .grey{
 .radio{
     width: 60%;
     margin: 50px auto;
-
-
+    
     /* DEBUG */
     /* background-color: orange; */
 }
@@ -375,7 +371,6 @@ h5{
 .user-below{
     text-align: center;
     border-bottom: 1px black solid;
-
 }
 
 .team{
@@ -425,7 +420,6 @@ h5{
     margin-left: 21%;
     /* DEBUG */
     /* background-color: red; */
-    
 }
 
 .square-image{
@@ -507,9 +501,9 @@ h5{
 
 .square-image-two{
     width: 100%;
+    height: 200px;
     /* DEBUG */
     /* background-color:yellow; */
-    height: 200px;
 }
 
 .image-three{
@@ -780,7 +774,6 @@ hr{
     text-align: center;
     color: white;
     background-color: blue;
-    /* Debug */
 }
 
 /* Eight Section */
@@ -790,7 +783,6 @@ hr{
     margin: 0 auto;
     /* Debug */
     background-color: white;
-    height: 300px;
 }
 
 .sixth-title{
@@ -799,7 +791,6 @@ hr{
     margin: 150px auto 50px auto;
     /* Debug */
     /* background-color: red; */
-    /* height: 100px; */
 }
 
 .flex-square-question{
@@ -809,7 +800,6 @@ hr{
     line-height: 100px;
     /* DEBUG */
     /* background-color: orange; */
-    height: 100px;
 }
 
 .question{
@@ -830,7 +820,6 @@ hr{
     line-height: 100px;
     /* DEBUG */
     /* background-color: orange; */
-    height: 100px;
 }
 
 .question-two{
@@ -841,6 +830,75 @@ hr{
 .arrow-question-two{
     border-bottom: 1px solid black;
 }
+
+/* Footer Rules */
+
+footer{
+    margin-top: 150px;
+    width: 100%;
+
+    /* DEBUG */
+    background-color: black;
+    height: 500px;
+}
+
+#flex-square-footer{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+
+    /* DEBUG */
+    /* background-color: orange; */
+    /* height: 500px; */
+}
+
+.column-special{
+    width: 20%;
+    margin: 0 auto;
+
+    /* DEBUG */
+    /* background-color:green; */
+    height: 500px;
+}
+
+.title-list{
+    color: white;
+}
+
+.column-special2{
+    width: 20%;
+    margin: 0 auto;
+
+    /* DEBUG */
+    background-color:yellow;
+    height: 500px;
+}
+
+.footer-list{
+    margin: 20px 0 0 20px;
+    list-style-type: none;
+}
+
+li{
+    color: white;
+    padding: 20px 0 0 10px;
+}
+
+.footer-line{
+    color: white;
+    margin: 100px 0 0 10px;
+    width: 50%;
+}
+
+.earth{
+    padding-right: 20px;
+}
+
+.language{
+    margin-right: 15px;
+}
+
+
 
 
 
