@@ -783,4 +783,67 @@ hr{
     /* Debug */
 }
 
+/* Eight Section */
+
+#eight-section{
+    width: 100%;
+    margin: 0 auto;
+    /* Debug */
+    background-color: white;
+    height: 300px;
+}
+
+.sixth-title{
+    font-size: 30px;
+    width: 50%;
+    margin: 150px auto 50px auto;
+    /* Debug */
+    /* background-color: red; */
+    /* height: 100px; */
+}
+
+.flex-square-question{
+    display: flex;
+    width: 50%;
+    margin: 20px auto 0 auto;
+    line-height: 100px;
+    /* DEBUG */
+    /* background-color: orange; */
+    height: 100px;
+}
+
+.question{
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.arrow-question{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.flex-square-question-two{
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    line-height: 100px;
+    /* DEBUG */
+    /* background-color: orange; */
+    height: 100px;
+}
+
+.question-two{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.arrow-question-two{
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
 
