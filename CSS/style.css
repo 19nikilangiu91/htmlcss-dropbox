@@ -179,6 +179,36 @@ a{
 
 }
 
+#button-partner{
+    padding: 15px;
+    margin: 50px 30px;
+    width: 45%;
+    /* background-color: white; */
+    color: grey;
+    border: 1px grey solid;
+}
+
+#button-partner:hover{
+    transition: all 1s;
+    color:white;
+    background-color:grey;
+}
+
+.button-prova-gratuita{
+    width: 20%;
+    padding: 10px;
+    margin-left:100px;
+    text-align: center;
+    color: grey;
+    background-color: white;
+}
+
+.button-prova-gratuita:hover{
+    transition: all 1s;
+    color:white;
+    background-color:grey;
+}
+
 /* Main Rules */
 
 /* First Section */
@@ -522,21 +552,6 @@ h5{
     /* background-color: purple; */
 }
 
-#button-partner{
-    padding: 15px;
-    margin: 50px 30px;
-    width: 45%;
-    /* background-color: white; */
-    color: grey;
-    border: 1px grey solid;
-}
-
-#button-partner:hover{
-    transition: all 1s;
-    color:white;
-    background-color:grey;
-}
-
 /* Fourth Section */
 
 #fourth-section{
@@ -705,6 +720,7 @@ h5{
 }
 
 /* Square Middle */
+
 .square-multi-middle{
     width: calc(100% / 3);
     padding: 50px 0;
@@ -823,16 +839,7 @@ h5{
     /* background-color: red; */
 }
 
-.button-prova-gratuita{
-    width: 20%;
-    padding: 10px;
-    margin-left:100px;
-    text-align: center;
-    color: grey;
-    background-color: white;
-}
-
-/* Eight Section */
+/* Eight */
 
 #eight-section{
     width: 100%;
@@ -890,7 +897,8 @@ h5{
 /* Footer Rules */
 
 footer{
-    margin-top: 150px;
+    margin-top:150px;
+    padding-bottom: 50px;
     width: 100%;
     background-color: black;
 }
