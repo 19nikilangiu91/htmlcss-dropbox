@@ -17,7 +17,6 @@ body{
     align-items: center;
     align-self: center;
     position: fixed;
-    padding: 10px 0 10px 0;
     top: 0;
     right: 0;
     z-index: 1000;
@@ -25,9 +24,24 @@ body{
     width: 100%;
 }
 
+#flex-nav .grey {
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+}
+  
+#flex-nav .grey:hover {
+    border-bottom: 2px solid grey;
+}
+  
+#flex-nav .grey.active {
+    border-bottom: 2px solid grey;
+}
+
 /* Drop Box Logo */
 
-.dropbox-logo{
+.dropbox{
     width: 10%;
     margin: 5px 0 0 20px;
     /* DEBUG */
@@ -44,12 +58,11 @@ body{
 .flex-list-left{
     display: flex;
     justify-content: flex-start;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .flex-list-left .grey{
     list-style-type: none;
-    padding: 0 20px;
 }
 
 a{
@@ -67,14 +80,13 @@ a{
 .flex-list-right{
     display: flex;
     justify-content: flex-end;
-    font-size: 10px;
-    padding: 0 20px;
+    font-size: 12px;
     /* DEBUG */
     /* background-color: blue; */
 }
 
 .flex-list-right li{
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 /* Buttons */
@@ -93,6 +105,11 @@ a{
     background-color: #0071e0;
 } 
 
+.button-inizia:hover{
+    transition: all 1s;
+    background-color:#0081ff;
+}
+
 #prova-gratuita{
     width: 70%;
     margin: 30px 0 0 50px;
@@ -103,9 +120,15 @@ a{
 .button-prova{
     font-size: 13px;
     padding: 10px;
+    margin-top: 10px;
     color: white;
     text-decoration: none;
     background-color: #0071e0;
+}
+
+.button-prova:hover{
+    transition: all 1s;
+    background-color:#0081ff;
 }
 
 .arrow-down{
@@ -130,18 +153,30 @@ a{
     background-color: #0071e0;
 } 
 
+#prova-gratis:hover{
+    transition: all 1s;
+    background-color: #0081ff;
+} 
+
 .button-gratis{
     font-size: 13px;
     text-decoration: none;
     color: white;
 }
 
-.button-vendite{
+#button-vendite{
     width: 25%;
     padding: 5px;
     color: white;
     text-align: center;
     background-color: #0071e0;
+
+}
+
+#button-vendite:hover{
+    transition: all 1s;
+    background-color: #0081ff;
+
 }
 
 /* Main Rules */
@@ -155,10 +190,10 @@ a{
 }
 
 .main-title{
-    position: relative;
+    /* position: relative; */
     width: 65%;
     margin: 50px auto 0 auto;
-    padding:100px 0 0 45px;
+    padding:100px 0 0px 60px;
     /* DEBUG */
     /* background-color: yellow; */
 }
@@ -176,7 +211,8 @@ a{
 }
 
 .paragraphone{
-    margin-left: 85px;
+    position: relative;
+    margin-left: 100px;
     padding-left: 20px;
     width: 27%;
     /* DEBUG */
@@ -195,7 +231,7 @@ a{
 
 .imageone{
     position:absolute;
-    margin: 50px 0 0 370px;
+    margin: 50px 0 0 400px;
     width: 58%;
     /* DEBUG */
     /* background-color: orange; */
@@ -268,7 +304,7 @@ a{
 
 .user{
     border-bottom: 1px solid #d0d4d9;
-    padding-left: 80px;
+    padding-left: 100px;
 }
 
 a{
@@ -328,12 +364,28 @@ h5{
     font-size: 15px;
     padding-left: 20px;
     margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.share-special{
+    display: flex;
+    font-size: 15px;
+    padding: 10px 0 10px 20px;
+    margin-top: 30px;
 }
 
 .contethree{
-    width: 90%;
+    width: 80%;
     font-size: 13px;
     padding-left: 10px;
+    /* DEBUG */
+    /* background-color: green; */
+}
+
+#contethree-special{
+    width: 80%;
+    font-size: 13px;
+    padding:0 10px 10px;
     /* DEBUG */
     /* background-color: green; */
 }
@@ -470,13 +522,19 @@ h5{
     /* background-color: purple; */
 }
 
-.button-partner{
-    padding: 20px;
-    margin: 10px 0 0 30px;
+#button-partner{
+    padding: 15px;
+    margin: 50px 30px;
     width: 45%;
     /* background-color: white; */
     color: grey;
     border: 1px grey solid;
+}
+
+#button-partner:hover{
+    transition: all 1s;
+    color:white;
+    background-color:grey;
 }
 
 /* Fourth Section */
