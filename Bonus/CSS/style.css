@@ -941,10 +941,18 @@ footer{
     list-style-type: none;
 }
 
-li, a{
+li, #underline{
     text-decoration: none;
     color: white;
     padding: 20px 0 0 5px;
+}
+
+li, #underline:hover{
+    text-decoration: underline 2px white;
+}
+
+li, #underline:active{
+    text-decoration: none;
 }
 
 .footer-line{
