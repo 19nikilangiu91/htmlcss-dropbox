@@ -337,7 +337,7 @@ a{
 
 .user{
     border-bottom: 1px solid #d0d4d9;
-    padding-left: 100px;
+    padding-left: 80px;
 }
 
 a{
@@ -345,6 +345,7 @@ a{
 }
 
 .main-user{
+    color: black;
     text-decoration: none;
 }
 
